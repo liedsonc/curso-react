@@ -48,3 +48,18 @@
 }.blog-preview a {
   text-decoration: none;
 }
+
+/* I tougth that the autor name would be better (visualy) like this */
+span{
+  font-weight: bold; 
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
