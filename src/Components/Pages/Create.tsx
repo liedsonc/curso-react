@@ -57,9 +57,7 @@ const Create = () => {
                 </select>
                 {!isLoading && <button>Add blog</button>}
                 {isLoading && <button>Adding blog...</button>}
-                {/* <p>{ title }</p>
-                <p>{ body }</p>
-                <p>{ author }</p> */}
+                
             </form>
 
         </div>
