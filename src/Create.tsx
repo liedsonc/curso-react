@@ -1,3 +1,4 @@
+import React, { FormEvent } from 'react';
 import { useState } from "react";
 import { useHistory } from "react-router-dom"
 const Create = () => {
@@ -7,7 +8,11 @@ const Create = () => {
     const [isLoading, setIsLoading] = useState(false)
     const history = useHistory();
     
-    const handleSubmit = (e) => {
+    
+
+
+
+    const handleSubmit = (e: FormEvent) => {
         e.preventDefault();
         const blog ={title, body, author};
 
