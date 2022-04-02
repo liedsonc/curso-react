@@ -1,8 +1,7 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
-import useFetch from "./useFetch";
-import BlogList from './BlogList';
-import { Blog } from './BlogList';
+import useFetch from "../useFetch/useFetch";
+import BlogList from '../BlogList/BlogList';
+import { Blog } from '../BlogList/BlogList';
 
 
 
@@ -12,7 +11,6 @@ const Home = () => {
    
     return ( 
         <div className="home">
-          <h1>OLLLLLL</h1>
           { error && <div>{ error }</div>}
           {isLoading && <div>Loading...</div>}
           {blogs && <BlogList blogs={blogs} 
