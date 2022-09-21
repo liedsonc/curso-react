@@ -34,7 +34,7 @@ const useFetch  = <T,> (url: RequestInfo )  => {
               setError(err.message)
               }
             })
-        },1000 )            
+        }, )            
     },[url])
 
       return { data, isLoading, error}
