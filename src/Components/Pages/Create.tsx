@@ -18,7 +18,7 @@ const Create = () => {
 
         setIsLoading(true);
 
-       fetch('http://localhost:8000/blogs', {
+       fetch('http://192.168.1.66:8000/blogs', {
            method: 'POST',
            headers: {'Content-Type': 'application/json'},
            body: JSON.stringify(blog)
